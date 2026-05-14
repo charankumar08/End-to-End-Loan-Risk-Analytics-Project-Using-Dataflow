@@ -81,18 +81,24 @@ Designed 3 interactive dashboard pages:
 
 ## 📊 Analytics Deep-Dive & Executive Insights
 
-### 1. Core Portfolio & Default Overview
+### 1. Loan Default & Overview
+<img width="1288" height="723" alt="Loan Overview" src="https://github.com/user-attachments/assets/7339e46c-cdea-487d-881f-235a2215620b" />
+
 *   **Capital Allocation Trends:** Loan issuance is consistently balanced across functional categories. Home loans comprise the largest deployment segment at **$6,545M**, while the lowest allocation is categorized under Miscellaneous/Other at **$6,498M**.
 *   **Income Stability Paradox:** Average annual income remains homogeneous across all work classifications, floating between **$82,272 (Self-employed)** and **$82,890 (Full-time)**.
 *   **Employment Risk Dispersion:** Despite stable income profiles, default behaviors vary dramatically. **Unemployed individuals carry the highest structural risk with a 3.39% default rate**, followed heavily by Full-time employees at **3.01%**. Conversely, Part-time workers display the strongest repayment discipline with a default rate low of **2.36%**.
 *   **Macro Default Cycle:** Loan default tracking shows a distinct cyclical volatility. Sharp risk spikes peaked in **2015 (11.70%)** and **2016 (11.75%)** before aggressively correcting to a cyclical low of **11.50% in 2017**.
 
-### 2. Applicant Demographics & Credit Profiles
+### 2.Applicant Demographics & Financial Profile
+<img width="1288" height="730" alt="Demographics" src="https://github.com/user-attachments/assets/3956f1ce-163f-438e-8dd7-26df3fcb8e4c" />
+
 *   **Credit Score Elasticity:** Median loan amounts decrease progressively as credit rating deteriorates. Low-risk tiers request a median size of **$128,397 (Low Default Probability Tier)**, contracting down to **$127,149 for High-risk applicant tiers**.
 *   **High-Credit Portfolio Demographics:** Within the elite credit segment, capital allocation is heavily driven by **Single Applicants ($128.57K / 8.43%)** and **Married Applicants ($128.35K / 8.42%)** within younger adult demographics.
 *   **Volume Distribution by Education:** Loan volume is distributed equally across educational tiers. **Bachelor's degree holders account for the highest transactional volume (64,366 loans)**, while Master's and PhD brackets maintain stable, slightly lower totals (~63.5K to 63.9K).
 
-### 3. Financial Risk Metrics & Volume Variances
+### 3.Financial Risk Metrics
+<img width="1295" height="729" alt="Risk Metrics" src="https://github.com/user-attachments/assets/03f6a93b-820d-4407-b606-b29f4fb7d10b" />
+
 *   **Year-Over-Year (YOY) Capital Volatility:** Capital disbursement underwent massive swings, dropping to a negative growth rate of **-1.53% in 2014**, before experiencing a sharp resurgence to a peak growth rate of **+1.73% in 2018**.
 *   **YOY Default Correlation:** Net defaults do not map linearly to total volume. A massive default escalation occurred in **2015 (+2.7 growth variance)**, aligning directly with the historical macro cycle peak.
 *   **Decomposition Tree Analysis:** Dissecting the total high-income loan portfolio volume (**$32.58bn**) reveals a perfectly uniform distribution across working sectors. High-income capital splits evenly across **Full-time ($5.44bn)**, **Part-time ($5.44bn)**, and **Self-employed ($5.43bn)** human capital sectors.
@@ -126,9 +132,6 @@ CALCULATE(
 ```DAX
 Median Loan Amount = MEDIAN(Loans[LoanAmount])
 ```
-
----
-
 # Dataset Information
 
 ## Dataset Used
@@ -144,21 +147,6 @@ Loan Default Dataset containing:
 
 ---
 
-# Screenshots
-
-## Dashboard Preview
-
-### Loan Default & Overview
-
-
-### Applicant Demographics & Financial Profile
-(Add Screenshot Here)
-
-### Financial Risk Metrics
-<img width="1295" height="729" alt="Risk Metrics" src="https://github.com/user-attachments/assets/03f6a93b-820d-4407-b606-b29f4fb7d10b" />
-
-
----
 
 # Learning Outcomes
 
